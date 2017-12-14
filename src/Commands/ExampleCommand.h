@@ -11,6 +11,8 @@ public:
 	bool IsFinished() override;
 	void End() override;
 	void Interrupted() override;
+private:
+	int i;
 };
 
 #endif  // EXAMPLE_COMMAND_H
